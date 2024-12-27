@@ -22,6 +22,8 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
+#include <stdio.h>
+
 #include <memory>
 
 #include "lit.hpp"
@@ -233,6 +235,7 @@ int main(void)
     {
       EnterStop2Mode();
     }
+    printf("hello!");
     HAL_Delay(1);
   }
   /* USER CODE END 3 */
